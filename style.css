@@ -1,314 +1,168 @@
 /*
+.fraunces-<uniquifier> {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+*/
+
+/*
+.barlow {
+  font-family: "Barlow", serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+}
+
+.hero-header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logo{
     font-family: "Barlow", serif;
     font-weight: 600;
     font-style: normal;
-*/
+}
 
-/*
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-*/
-
-/*
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-*/
-
-body, html{
-    margin: 0;
-    padding: 0;
-    width: 1920px;
-    height: auto;
+.hero-nav{
+    width: 80vw;
     display: flex;
-    justify-content: center;
+    padding: 10px 0;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+
 }
 
-.header-con{
-    width: 100%;
-    height: 800px;
-    background-image: url(desktop/image-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
+ul{
     display: flex;
-    justify-content: center;
-}
-
-header{
-    width: 1440px;
-    height: 800px;
-    color: hsl(0, 0%, 100%);
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-}
-
-.header-nav{
-    display: flex;
-    justify-content: space-between;
 }
 
 li{
-    padding: 12px;
-    display: flex;
-    text-decoration: none;
-} 
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-.main-con{
-    width: 1440px;
-    height: 1800px;
-}
-
-.section-one{
-    width: 100%;
-    height: 600px;
-}
-
-.text-one{
-    width: 50%;
-    height: 600px;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.text-one h1, .text-one p{
-    width: 50%;
-}
-
-.text-one h1{
-    color: hsl(212, 27%, 19%);
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-}
-
-.text-one p{
+    padding: 0 10px;
+    list-style: none;
+    font-size: 20px;
     font-family: "Barlow", serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
 }
 
-.image-one{
-    width: 50%;
-    height: 600px;
-    background-image: url(desktop/image-transform.jpg);
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-button{
-    border: none;
-}
-
-button a{
-    color: hsl(212, 27%, 19%);
-    text-decoration: underline hsl(51, 100%, 49%); 
-   
-}
-
-.section-two{
-    width: 100%;
-    height: 600px;
-}
-
-.text-two h1, .text-two p{
-    width: 50%;
-}
-
-
-.image-two{
-    width: 50%;
-    height: 600px;
-    background-image: url(desktop/image-stand-out.jpg);
-    background-repeat: no-repeat;
-    float: left;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-.text-two{
-    width: 50%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.text-two h1{
-    color: hsl(212, 27%, 19%);
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-}
-
-.text-two p{
-    font-family: "Barlow", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.section-three{
-    width: 100%;
-    height: 600px;
-}
-
-.image-three{
-    width: 50%;
-    height: 600px;
-    background-image: url(desktop/image-graphic-design.jpg);
-    background-repeat: no-repeat;
-    float: left;
-    text-align: center;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-}
-
-.image-three h1, .image-three p{
-    width: 50%;
-}
-
-.image-four{
-    width: 50%;
-    height: 600px;
-    background-image: url(desktop/image-photography.jpg);
-    background-repeat: no-repeat;
-    float: left;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.image-four, .image-four p{
-    width: 50%;
-}
-.image-four p{
-    height: 54px;
-}
-
-.image-three h1, .image-four h1{
-    color: hsl(212, 27%, 19%);
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-}
-
-.image-three p, .image-four p{
-    font-family: "Barlow", serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.main-client-con{
-    padding-top: 50px;
-}
-
-.main-client-con h1{
-    width: 1920px;
-    height: auto;
-    color: hsl(232, 10%, 55%);
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
-    text-align: center;
-}
-
-.client-con{
-    width: 1920px;
-    height: 500;
+.contact{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
-}
-
-.box-one{
-    width: 300px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-
-.box-two{
-    width: 300px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-
-.box-three{
-    width: 300px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-}
-
-.box-one, .box-two, .box-three{
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-    flex-direction: column;
-}
-
-.images{
-    width: 100px;
-    height: 100px;
+    color: black;
+    background-color: white;
+    width: 90px;
     border-radius: 50px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hero-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero-main{
+    width: 100vw;
+}
+
+.hero-one{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-left{
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.hero-right{
+    width: 650px;
+    height: 600px;
+}
+
+
+.h1-main{
+    font-family: "Barlow", serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.p-main{
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
-.box-img{
+.button-main{
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 100px;
+    border: none;
+    text-decoration: underline yellow;
+}
+
+.hero-two{
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.hero-two-left{
+    width: 40vw;
+    height: 600px;
+}
+
+.hero-two-right{
+    width: 40vw;
+    height: 600px;
 }

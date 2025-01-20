@@ -1,114 +1,151 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Sunnyside agency landing page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
-    
-    <div class="header-con">
-        <header>
-            <h1>sunnyside</h1>
 
-            <ul class="header-nav">
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </header>
-    </div>
-
-    <div class="main-con">
-        <section class="section-one">
-            <div class="text-one">
-
-                <h1>Transform your brand</h1>
-                <p>We are a full-service creative agency specializing in helping brands grow fast. 
-                Engage your clients through compelling visuals that do most of the marketing for you.</p>
-               
-                <button><a href="">LEARN MORE</a></button>
-            </div>
-            <div class="image-one">
-             
-            </div>
-        </section>
-        <section class="section-two">
-            <div class="image-two">
-             
-            </div>
-
-            <div class="text-two">
-
-                <h1>Transform your brand</h1>
-                <p>We are a full-service creative agency specializing in helping brands grow fast. 
-                Engage your clients through compelling visuals that do most of the marketing for you.</p>
-               
-                <button><a href="">LEARN MORE</a></button>
-            </div>
-        </section>
-        <section class="section-three">
-            <div class="image-three">
-
-                <h1>Graphic design</h1>
-                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-
-            </div>
-            <div class="image-four">
-
-                <h1>Photography</h1>
-                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-            </div>
-        </section>
-    </div>
-
-    <div class="main-client-con">
-        <h1>CLIENT TESTIMONIALS</h1>
-
-        <div class="client-con">
-            <div class="box-one">
-                <div class="box-img">
-                    <img class="images" src="desktop/image-emily.jpg" alt="">
+    <header class="hero-header">
+        <div class="hero">
+            <div class="hero-nav">
+                <div class="logo">
+                    <h1>sunnyside</h1>
                 </div>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Projects</li>
+                            <li class="contact">Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1>WE ARE CREATIVES</h1>
+            </div>
+            <div class="hero-arrow">
+                <img src="images/icon-arrow-down.svg" alt="arrow-down">
+            </div>
+        </div>
+    </header>
 
-                <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+    <main>
+        <div class="hero-main">
+            <div class="hero-one">
+                <div class="hero-left">
+                    <div class="hero-left-box">
+                        <h1 class="h1-main">Transform your brand</h1>
+                        <p class="p-main">We are a full-service creative agency specializing in helping brands grow fast.
+                            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                        <button class="button-main">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="images/desktop/image-transform.jpg" alt="egg">
+                </div>
+            </div>
+            <div class="hero-two">
+                <div class="hero-two-left">
+                    <img src="images/desktop/image-stand-out.jpg" alt="glass">
+                </div>
+                <div class="hero-two-right">
+                    <div class="hero-two-right-box">
+                        <h1>Stand out to the right audience</h1>
+                    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and
+                        copywriters, we’ll build and extend your brand in digital places. </p>
+                    <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-three">
+                <div class="hero-three-left">
+                    <img src="images/desktop/image-graphic-design.jpg" alt="cherry">
+                    <h1>Graphic design</h1>
+                    <p>Great design makes you memorable. We deliver artwork that underscores your brand message and
+                        captures potential clients’ attention. </p>
+                </div>
+                <div class="hero-three-right">
+                    <img src="images/desktop/image-photography.jpg" alt="orange">
+                    <h1>Photography</h1>
+                    <p>Increase your credibility by getting the most stunning, high-quality photos that improve your
+                        business image. </p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-                <h2>Emily R.</h2>
+    <section class="clients">
+        <div class="hero-clients">
+            <h1>Client testimonials</h1>
+            <div class="hero-clients-left">
+                <img src="images/image-emily.jpg" alt="emily">
+                <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+                    always hit.</p>
+                <h3>Emily R.</h3>
                 <p>Marketing Director</p>
             </div>
-
-            <div class="box-two">
-                <div class="box-img">
-                    <img class="images" src="desktop/image-thomas.jpg" alt="">
-                </div>
-
-                <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-
-                <h2>Thomas S.</h2>
+            <div class="hero-clients-mid">
+                <img src="images/image-thomas.jpg" alt="thomas">
+                <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying
+                    and enjoyable experience.</p>
+                <h3>Thomas S.</h3>
                 <p>Chief Operating Officer</p>
             </div>
-
-            <div class="box-three">
-                <div class="box-img">
-                    <img class="images" src="desktop/image-jennie.jpg" alt="">
-                </div>
-
-                <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-
-                <h2>Jennie F.</h2>
+            <div class="hero-clients-right">
+                <img src="images/image-jennie.jpg" alt="jennie">
+                <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+                    recommended!</p>
+                <h3>Jennie F.</h3>
                 <p>Business Owner</p>
             </div>
         </div>
-        
-    </div>
+    </section>
+
+    <section class="gallery">
+        <div class="hero-gallery">
+            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk">
+            <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
+            <img src="images/desktop/image-gallery-cone.jpg" alt="cone">
+            <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
+        </div>
+    </section>
+
+    <footer class="hero-footer">
+        <h1>sunnyside</h1>
+
+        <div class="footer-information">
+            <p>About</p>
+            <p>Services</p>
+            <p>Projects</p>
+        </div>
+
+        <div class="footer-logo">
+            <img src="images/icon-facebook.svg" alt="facebook">
+            <img src="images/icon-instagram.svg" alt="instagram">
+            <img src="images/icon-twitter.svg" alt="twitter">
+            <img src="images/icon-pinterest.svg" alt="pinterest">
+        </div>
+    </footer>
 
 </body>
+
 </html>
